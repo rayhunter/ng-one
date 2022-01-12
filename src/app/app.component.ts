@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-one';
+  title = '12!';
+  data = "hello code"
+  getVal()
+  {
+    return "Code Step By Step"
+  }
+  getName(name:string)
+  {
+    alert (name)
+  }
 }
