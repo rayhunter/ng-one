@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = '12!';
   data = "hello code"
+  getData(val:string)
+  {
+    console.warn(val)
+  }
   getVal()
   {
     return "Code Step By Step"

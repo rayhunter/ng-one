@@ -6,9 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-
   constructor() { }
-
+  count=0;
+  counter(type:string) 
+  {
+    type==='add' ? this.count++:this.count--
+  }
   ngOnInit(): void {
   }
 

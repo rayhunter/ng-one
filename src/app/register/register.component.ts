@@ -8,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class RegisterComponent implements OnInit {
 
   constructor() { }
-
+  getNameValue(val:string) {
+    console.warn(val)
+  }
+  clearInput(el:any) {
+    console.warn(el.value)
+  }
   ngOnInit(): void {
   }
 

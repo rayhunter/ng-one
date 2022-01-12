@@ -1,1 +1,12 @@
 <p>register works!</p>
+<input
+  type="text"
+  #box7
+  (keyup)="getNameValue(box7.value)"
+  (blur)="clearInput(box7)"
+  placeholder="Enter Name"
+  name="username"
+/>
+<button>Click Me</button>
+<br/>
+Here is the value: {{box7.value}}

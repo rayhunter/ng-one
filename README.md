@@ -1,5 +1,8 @@
 # NgOne
-
+## ----------------------------
+Angular 12/13 Tutorial. Code Step By Step
+https://www.youtube.com/watch?v=oMj95u2zK4Y&list=PL8p2I9GklV47eNpoo4Fr6fkags72a8F0v
+## ----------------------------
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Development server
