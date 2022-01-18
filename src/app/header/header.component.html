@@ -1,1 +1,24 @@
-<p class="custom">header works!</p>
+interpolation
+<input type="text" value={{name}} disabled={{disable}} placeholder="">
+property binding
+<input type="text" [value]=name [disabled]=disable placeholder="">
+<br/>
+<ng-template [ngIf]="color==='red'">
+<h2 style:[color]=color>Red Color</h2>
+</ng-template>
+<br/>
+<div *ngIf="show; then ifCond else elseCond" class="custom">header works!</div>
+<ng-template #ifCond>
+  <h1>Maxwell's Silver Hammer</h1>
+</ng-template>
+<ng-template #elseCond>
+  <h1>She Came In Through The Bathroom Window</h1>
+</ng-template>
+
+<span *ngIf="show; then ifCond2 else elseCond2" class="custom">header works!</span>
+<ng-template #ifCond2>
+  <h1>All Day Music</h1>
+</ng-template>
+<ng-template #elseCond2>
+  <h1>Circles</h1>
+</ng-template>

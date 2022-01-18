@@ -11,9 +11,15 @@ import { Component, OnInit } from '@angular/core';
     }`
   ]
 })
-export class HeaderComponent implements OnInit {
 
-  constructor() { }
+export class HeaderComponent implements OnInit {
+  
+  //constructor() { }
+
+  show =false;
+  name ='Bradley Brown';
+  disable =false;
+  color='red';
 
   ngOnInit(): void {
   }
