@@ -8,16 +8,16 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = '12!';
   data = "hello code"
-  getData(val:string)
-  {
+
+  getData(val:string){
     console.warn(val)
   }
-  getVal()
-  {
+
+  getVal(){
     return "Code Step By Step"
   }
-  getName(name:string)
-  {
+
+  getName(name:string){
     alert (name)
   }
 }
